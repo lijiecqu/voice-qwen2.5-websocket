@@ -20,7 +20,7 @@ speech_thread = None  # 用来控制语音播放线程
 
 # 调用大模型接口获取回复
 def get_model_reply(prompt):
-    url = "http://1.95.65.216:8434/api/generate"
+    url = "http://x.x.x.x:xxxx/api/generate"
     headers = {
         "Host": "127.0.0.1",
         "Content-Type": "application/json"
